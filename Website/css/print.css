@@ -1,3 +1,5 @@
+@media print{
+
 body {
   font-size: 12px;
   color: #000000;
@@ -6,11 +8,15 @@ body {
 }
 
 header {
-  display: none;
+  display:none;
 }
 
 nav {
-  display: none;
+  display:none;
+}
+
+img.logo {
+ display: none;
 }
 
 @page {
@@ -23,4 +29,13 @@ margin: 0.5cm;
 
 @page :right {
 margin: 0.8cm;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+img {
+  display: none;
 }
