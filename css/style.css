@@ -78,10 +78,10 @@ img.headshot {
 }
 
 img.fieldshot {
-  margin-left: 150px;
+  margin-left: 250px;
   border:5px solid rgb(128,128,128);
-  width: 650px;
-  height: 750px;
+  width: 450px;
+  height: 550px;
 }
 
 img.logo {
